@@ -1,0 +1,44 @@
+# Backup and archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Deployment packages (contain sensitive data)
+deployment-package/
+complete-deployment/
+clean-deployment/
+
+# Documentation files
+*.docx
+*.pdf
+*.txt
+
+# Test files
+test.php
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Credentials and secrets
+includes/credentials/
+**/credentials.json
+
+# Composer dependencies
+vendor/
+composer.lock
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 

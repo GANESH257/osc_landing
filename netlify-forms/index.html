@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form - Spine Care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e1e5e9;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #FF7537;
+        }
+        button {
+            background-color: #FF7537;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #e65a2b;
+        }
+        .hidden {
+            display: none;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .header p {
+            color: #666;
+        }
+        .required {
+            color: #FF7537;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div class="header">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our spine care experts</p>
+        </div>
+        
+        <!-- Netlify Form -->
+        <form name="modal-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="modal-contact" />
+            <p class="hidden">
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            
+            <div class="form-group">
+                <label for="modalName">Your Name <span class="required">*</span></label>
+                <input type="text" id="modalName" name="name" required placeholder="Full name here">
+            </div>
+
+            <div class="form-group">
+                <label for="modalCountryCode">Country Code <span class="required">*</span></label>
+                <select id="modalCountryCode" name="countryCode" required>
+                    <option value="+1">United States (+1)</option>
+                    <option value="+44">United Kingdom (+44)</option>
+                    <option value="+91">India (+91)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="modalPhone">Phone <span class="required">*</span></label>
+                <input type="tel" id="modalPhone" name="phone" required placeholder="Add Phone Number">
+                <small style="color: #666;">A verification code will be sent to this phone number.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="modalEmail">Email <span class="required">*</span></label>
+                <input type="email" id="modalEmail" name="email" required placeholder="Add email" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$">
+            </div>
+
+            <div class="form-group">
+                <label for="modalMessage">Comments / Questions</label>
+                <textarea id="modalMessage" name="message" rows="3" placeholder="Tell us about your spine care needs"></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="modalPrivacyPolicy" name="privacyPolicy" required>
+                <label for="modalPrivacyPolicy">
+                    I agree to the <a href="https://www.onlinespinecare.com/privacy-and-legal/" target="_blank" rel="noopener">privacy policy</a> and authorize Chesterfield Spine Center to contact me regarding my inquiry
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="modalSmsConsent" name="smsConsent" required>
+                <label for="modalSmsConsent">I consent to receive SMS messages from Chesterfield Spine Center for appointment confirmations, reminders, and other healthcare-related information.</label>
+            </div>
+
+            <div class="form-group">
+                <p style="color: #666; margin-bottom: 20px;">Call Timings : Mon to Fri - 8 am to 4 pm</p>
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html> 
