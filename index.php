@@ -632,7 +632,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li>Minimally Invasive Spine Surgery<span>•</span></li>
                         <li>Neuromodulation<span>•</span></li>
                         <li>Endoscopic Spine Surgery<span>•</span></li>
-                        <li>Same Day Pain Fixing<span>•</span></li>
+                        <li>Same Day Surgery<span>•</span></li>
                         <li>Interventional Pain Management<span>•</span></li>
                     </ul>
             </div>
@@ -1167,6 +1167,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <span>Reduced tissue damage</span>
                                     <span>Faster recovery time</span>
                                 </div>
+                                 <a href="https://www.onlinespinecare.com/minimally-invasive-spine-surgery/" class="btn-one">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -1183,6 +1184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <span>Minimal scarring</span>
                                     <span>Reduced recovery time</span>
                                 </div>
+                                <a href="https://www.onlinespinecare.com/endoscopic-spine-surgery/" class="btn-one">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -1199,6 +1201,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <span>Quick recovery</span>
                                     <span>Home same day</span>
                                 </div>
+                                <a href="https://www.onlinespinecare.com/same-day-spine-surgery/" class="btn-one">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -1215,6 +1218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <span>Long-lasting results</span>
                                     <span>Natural movement</span>
                                 </div>
+                                 <a href="https://www.onlinespinecare.com/disc-replacement-surgery/" class="btn-one">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -1231,6 +1235,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <span>Spinal cord stimulation</span>
                                     <span>Radio-frequency ablation</span>
                                 </div>
+                                <a href="#" class="btn-one">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -1247,6 +1252,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <span>Interspinous stabilization</span>
                                     <span>Long-term relief</span>
                                 </div>
+                                <a href="https://www.onlinespinecare.com/motion-preserving-spine-surgery/" class="btn-one">Learn More</a>
                             </div>
                         </div>
                     </div>

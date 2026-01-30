@@ -153,7 +153,7 @@
 
     .hero-sec {
         height: auto;
-        background: linear-gradient(1deg, rgba(3, 13, 67, 0.9) 10%, rgba(3, 13, 67, 0.1) 125%), url(../images/dramitbg.jpg);
+        background: linear-gradient(1deg, rgba(3, 13, 67, 0.9) 10%, rgba(3, 13, 67, 0.1) 125%), url(../images/spinecare_banner_landing.webp);
         background-position: top;
         background-position-x: center;
         background-size: contain;
@@ -226,10 +226,10 @@
 
         .hero-sec {
             height: auto;
-            background: linear-gradient(1deg, rgba(3, 13, 67, 0.9) 10%, rgba(3, 13, 67, 0.1) 125%), url(../images/dramitbg.jpg);
+            background: linear-gradient(1deg, rgba(3, 13, 67, 0.9) 10%, rgba(3, 13, 67, 0.1) 125%), url(../images/spinecare_banner_landing_phone.webp);
             background-position: top;
             background-position-x: center;
-            background-size: contain;
+            /* background-size: contain; */
             background-repeat: no-repeat;
         }
  

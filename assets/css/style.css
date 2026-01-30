@@ -110,7 +110,7 @@ body {
 .hero-sec {
   width: 100%;
   height: 700px;
-  background: linear-gradient(0deg, rgba(3, 13, 67, 0.9) 0%, rgba(3, 13, 67, 0.1) 73%) fixed, url(../images/dramitbg.jpg);
+  background: linear-gradient(0deg, rgba(3, 13, 67, 0.9) 0%, rgba(3, 13, 67, 0.1) 73%) fixed, url(../images/spinecare_banner_landing.webp);
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -649,6 +649,8 @@ body {
   transition: all 0.3s ease;
   backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
 .specialty-card:hover {
@@ -3164,4 +3166,36 @@ body {
     .d-flex.gap-2 {
         flex-direction: column;
     }
+}
+
+
+.specialty-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Improve spacing for "Learn More" buttons inside specialty cards */
+.specialty-content .btn-one {
+  padding: 8px 20px;
+  margin-top: auto;
+  display: inline-block;
+  border-radius: 8px;
+  align-self: flex-start;
+}
+
+@media (max-width: 767px) {
+  .specialty-content .btn-one {
+    padding: 7px 16px;
+    margin-top: 12px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .specialty-content .btn-one {
+    padding: 6px 14px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
 }
