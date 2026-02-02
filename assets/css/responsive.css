@@ -156,8 +156,8 @@
         background: linear-gradient(1deg, rgba(3, 13, 67, 0.9) 10%, rgba(3, 13, 67, 0.1) 125%), url(../images/spinecare_banner_landing.webp);
         background-position: top;
         background-position-x: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
     }
     .mob-title-hd {
         font-size: 23px;

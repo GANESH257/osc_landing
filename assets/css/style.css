@@ -3199,3 +3199,9 @@ body {
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 900px) {
+  #hero-cta-button {
+    visibility: hidden;
+  }
+}
