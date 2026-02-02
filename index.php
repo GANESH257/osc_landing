@@ -612,11 +612,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <span class="highlight">faster recovery</span>, and 
                                 <span class="highlight">personalized care</span>.
                             </p>
-                            <div class="hero-cta" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                            <div class="hero-cta d-flex justify-content-center gap-3 flex-wrap" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                                 <button class="btn-one pulse-animation" id="hero-cta-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                     <span class="btn-text">Book Appointment</span>
-                                    <span class="btn-icon"><i class="bi bi-arrow-right"></i></span>
+                                    <span class="btn-icon"><i class="bi bi-calendar-check"></i></span>
                                 </button>
+                                <a href="tel:636-252-4468" class="btn-two d-inline-flex align-items-center justify-content-center" onclick="trackButtonClick('Self Pay', 'Hero Section')">
+                                    <span class="btn-text">Self Pay</span>
+                                    <span class="btn-icon ms-2"><i class="bi bi-credit-card"></i></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -647,7 +651,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="trust-signals-wrapper d-flex flex-wrap justify-content-center align-items-center gap-3">
                             <div class="trust-item" data-aos="fade-up" data-aos-delay="100">
                                 <div class="trust-icon">🏆</div>
-                                <div class="trust-text">Triple fellowship trained<br>Spine Surgeon</div>
+                                <div class="trust-text">Triple Fellowship Trained<br>Spine Surgeon</div>
                         </div>
                             <div class="trust-item" data-aos="fade-up" data-aos-delay="200">
                                 <div class="trust-icon">🏥</div>
@@ -659,11 +663,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                             <div class="trust-item" data-aos="fade-up" data-aos-delay="400">
                                 <div class="trust-icon">⭐⭐⭐⭐⭐</div>
-                                <div class="trust-text">Many happy patients</div>
+                                <div class="trust-text">Many Happy Patients</div>
                             </div>
                             <div class="trust-item" data-aos="fade-up" data-aos-delay="500">
                                 <div class="trust-icon">🛡️</div>
-                                <div class="trust-text">Accepted by Major Insurance Plans<br> & cash pay options</div>
+                                <div class="trust-text">Accepted by Major Insurance Plans<br> & Cash Pay Options</div>
                             </div>
                         </div>
                     </div>
@@ -1412,6 +1416,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                             </div>
                             <p class="testimonial-text">"Such a great experience!!! Highly recommend! Did not try rushing through to see the next patient. Did a great job explaining everything!!!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-testimonials-sec" data-aos="fade-up" data-aos-duration="1000">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                        <div class="video-content-box p-4 p-md-5">
+                            <h2 class="section-title text-start mb-4">Patient <span class="text-orange">Success Stories</span></h2>
+                            <p class="lead mb-4">Watch Sasha Moreno's journey to recovery and how our minimally invasive treatments changed her life.</p>
+                            <div class="testimonial-highlights mb-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="highlight-icon-sml"><i class="bi bi-check2-circle-fill text-orange"></i></div>
+                                    <span class="ms-3">Advanced Minimally Invasive Care</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="highlight-icon-sml"><i class="bi bi-check2-circle-fill text-orange"></i></div>
+                                    <span class="ms-3">Rapid Recovery & Minimal Pain</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="highlight-icon-sml"><i class="bi bi-check2-circle-fill text-orange"></i></div>
+                                    <span class="ms-3">Personalized Patient Excellence</span>
+                                </div>
+                            </div>
+                            <button class="btn-one mt-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Start Your Journey Today</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="video-wrapper overflow-hidden rounded-4 shadow-lg">
+                            <video controls playsinline preload="auto" class="img-fluid w-100" poster="assets/images/about-img.png">
+                                <source src="assets/videos/Testimony_Sasha_Moreno.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
                 </div>

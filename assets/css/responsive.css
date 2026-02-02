@@ -1,79 +1,99 @@
 @media only screen and (max-width: 1366px) {
-    .meet-doctor-sec .doctor-div .our-doctor-box{
+    .meet-doctor-sec .doctor-div .our-doctor-box {
         right: 0px;
     }
-    .meet-doctor-sec .doctor-div .name-box{
+
+    .meet-doctor-sec .doctor-div .name-box {
         bottom: 78px;
     }
+
     .meet-doctor-sec .doctor-div .our-doctor-box ul li {
         width: 45px;
         height: 45px;
     }
-    .meet-doctor-sec .doctor-div .our-doctor-box h4 { 
+
+    .meet-doctor-sec .doctor-div .our-doctor-box h4 {
         font-size: 18px;
     }
-  }
+}
 
-  @media only screen and (max-width: 1024px) {
-    
-    .top-80{
+@media only screen and (max-width: 1024px) {
+
+    .top-80 {
         position: relative;
-        top:0px;
+        top: 0px;
     }
+
     .testimonials-sec .text-hd-wrp p {
         text-align: left !important;
     }
+
     .testimonials-sec .text-hd-wrp {
         margin-left: 10%;
     }
-    .hero-sec .card p{
+
+    .hero-sec .card p {
         font-size: 11px;
     }
+
     .solve-prblm-sec .solve-prblm-div h1 {
         font-size: 26px;
         color: #ffffff;
         font-weight: 600;
         line-height: 29px;
     }
+
     .meet-doctor-sec .doctor-div .our-doctor-box {
-       
+
         padding: 16px 15px 16px 15px;
         right: 0px;
         top: 243px;
     }
+
     .meet-doctor-sec .doctor-div .our-doctor-box ul li {
-        
+
         width: 40px;
         height: 40px;
     }
-    .meet-doctor-sec .doctor-div .name-box h4{
+
+    .meet-doctor-sec .doctor-div .name-box h4 {
         font-size: 16px;
     }
-    .meet-doctor-sec .doctor-div .name-box p{
+
+    .meet-doctor-sec .doctor-div .name-box p {
         font-size: 12px;
     }
-    .meet-doctor-sec h2, .specialties-sec h2, .testimonials-sec .text-hd-wrp h2{
+
+    .meet-doctor-sec h2,
+    .specialties-sec h2,
+    .testimonials-sec .text-hd-wrp h2 {
         font-size: 46px;
     }
-    .meet-doctor-sec h3{
+
+    .meet-doctor-sec h3 {
         font-size: 36px;
     }
-    .testimonials-sec .text-hd-wrp p{
+
+    .testimonials-sec .text-hd-wrp p {
         text-align: center;
     }
+
     .specialties-sec {
         padding: 0px 0px 20px;
     }
-    .testimonials-sec .item{
+
+    .testimonials-sec .item {
         width: 80%;
     }
+
     .contact-sec {
         padding: 50px 50px 50px 50px;
     }
+
     .ftr-sec .e-mail a {
         font-size: 12px;
     }
-  }
+}
 
 
 @media only screen and (max-width: 900px) {
@@ -81,71 +101,97 @@
         height: 100%;
         padding: 20px 0px 50px 0px;
     }
-    .solve-prblm-sec .solve-prblm-div{
+
+    .solve-prblm-sec .solve-prblm-div {
         height: 100%;
-        padding: 20px ;
-        
+        padding: 20px;
+
     }
-    .hero-sec .dr-name-div p{
+
+    .hero-sec .dr-name-div p {
         text-align: center;
     }
+
     .solve-prblm-sec .solve-prblm-div h1 {
         font-size: 46px;
         line-height: 47px;
         text-align: center;
     }
-    .welcome-sec h2, .meet-doctor-sec h2, .specialties-sec h2, .testimonials-sec .text-hd-wrp h2, .contact-sec .contact-card h2{
+
+    .welcome-sec h2,
+    .meet-doctor-sec h2,
+    .specialties-sec h2,
+    .testimonials-sec .text-hd-wrp h2,
+    .contact-sec .contact-card h2 {
         font-size: 40px;
         line-height: 42px;
     }
+
     .contact-sec {
         padding: 50px 0px 50px 0px;
     }
+
     .welcome-bg-sec {
         width: 100%;
         height: 220px;
-      
+
     }
+
     .meet-doctor-sec .doctor-div .name-box h4 {
         font-size: 22px;
     }
+
     .meet-doctor-sec .doctor-div .name-box p {
         font-size: 16px;
     }
+
     .ftr-sec .form-subscribe {
-        max-width: 100%; 
+        max-width: 100%;
         margin: 0 auto;
     }
-    .ftr-sec .logo-ftr h4{
+
+    .ftr-sec .logo-ftr h4 {
         font-size: 16px;
     }
-    .ftr-sec .logo-ftr .q{
+
+    .ftr-sec .logo-ftr .q {
         font-size: 14px;
     }
-    .ftr-sec .logo-ftr .d{
+
+    .ftr-sec .logo-ftr .d {
         font-size: 12px;
     }
-    .ftr-sec .news-ltr h4{
+
+    .ftr-sec .news-ltr h4 {
         margin-top: 20px;
     }
-    .ftr-sec .site-map ul li a, .ftr-sec .copyright a{
+
+    .ftr-sec .site-map ul li a,
+    .ftr-sec .copyright a {
         font-size: 12px;
     }
-    .solve-prblm-sec{
+
+    .solve-prblm-sec {
         padding-top: 0px;
     }
+
     .welcome-sec {
         padding: 50px 0px 50px 0px;
     }
+
     .meet-doctor-sec {
         padding: 50px 0px 40px 0px;
     }
-    .contact-sec{
+
+    .contact-sec {
         margin-top: 0px;
     }
-    .contact-sec .phone-card .phone-num .call, .contact-sec .call {
+
+    .contact-sec .phone-card .phone-num .call,
+    .contact-sec .call {
         margin-top: 15px;
     }
+
     .top-80 {
         position: relative;
         top: 0;
@@ -159,34 +205,54 @@
         background-size: cover;
         /* background-repeat: no-repeat; */
     }
+
     .mob-title-hd {
         font-size: 23px;
         margin-top: 40% !important;
     }
+
     .hero-sec .dr-name-div-mob {
-      
+
         margin-top: 40px;
     }
-  }
+
+    .hero-cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero-cta .btn-one,
+    .hero-cta .btn-two {
+        width: 80% !important;
+        margin-bottom: 30px;
+        min-width: unset !important;
+    }
+}
 
 
 
 
 @media only screen and (max-width: 600px) {
-    .btn-one, .btn-two{
+
+    .btn-one,
+    .btn-two {
         padding: 10px 12px;
         font-size: 14px;
 
     }
 
     .owl-dots .owl-dot span {
-       
+
         position: relative;
-        top:0px;
+        top: 0px;
     }
+
     .my-float {
         margin-top: 7px;
     }
+
     .mypage-alo-ph-img-circle {
         z-index: 0;
         position: fixed;
@@ -201,6 +267,7 @@
         animation-duration: 3s;
         animation-iteration-count: infinite;
     }
+
     .float {
         position: fixed;
         width: 45px;
@@ -212,82 +279,97 @@
         border-radius: 50px;
         text-align: center;
         font-size: 30px;
-       
+
         z-index: 100;
         line-height: 37px;
         z-index: 99999999;
     }
+
     .hero-sec .dr-name-div-mob {
         top: 80px;
         margin-top: 50px;
         margin-bottom: 35px;
-       
+
     }
 
-        .hero-sec {
-            height: auto;
-            background: linear-gradient(1deg, rgba(3, 13, 67, 0.9) 10%, rgba(3, 13, 67, 0.1) 125%), url(../images/spinecare_banner_landing_phone.webp);
-            background-position: top;
-            background-position-x: center;
-            /* background-size: contain; */
-            background-repeat: no-repeat;
-        }
- 
+    .hero-sec {
+        height: auto;
+        background: linear-gradient(1deg, rgba(3, 13, 67, 0.9) 10%, rgba(3, 13, 67, 0.1) 125%), url(../images/spinecare_banner_landing_phone.webp);
+        background-position: top;
+        background-position-x: center;
+        /* background-size: contain; */
+        background-repeat: no-repeat;
+    }
+
     .mob-title-hd {
         font-size: 22px;
         margin-top: 28% !important;
         line-height: 29px;
     }
+
     .top-hd ul li {
-        margin-left:0px;
+        margin-left: 0px;
     }
+
     .hero-sec .dr-name-div h1 {
         font-size: 32px;
     }
+
     .hero-sec .dr-name-div p {
-        
+
         font-size: 16px;
     }
-    .welcome-sec .card{
+
+    .welcome-sec .card {
         padding: 20px;
     }
+
     .meet-doctor-sec .doctor-div .name-box {
-       
+
         width: 100%;
         bottom: 40px;
         height: auto;
         left: 0;
         padding-left: 88px;
     }
-    .meet-doctor-sec .doctor-div .our-doctor-box h4{
+
+    .meet-doctor-sec .doctor-div .our-doctor-box h4 {
         font-size: 16px;
     }
+
     .meet-doctor-sec .doctor-div .our-doctor-box {
         top: 155px;
     }
+
     .meet-doctor-sec .doctor-div .our-doctor-box ul li {
         width: 35px;
         height: 35px;
     }
+
     .testimonials-sec {
-         padding: 40px 0px 20px 0px; 
+        padding: 40px 0px 20px 0px;
     }
+
     .testimonials-sec .text-hd-wrp {
         display: flex;
         align-items: start;
         flex-direction: column;
         margin-left: 0px;
     }
-    .testimonials-sec .text-hd-wrp p{
+
+    .testimonials-sec .text-hd-wrp p {
         text-align: left;
         font-size: 14px;
     }
+
     .testimonials-sec .item {
         width: 100%;
     }
-    .testimonials-sec .item{
-        margin:20px 0px 20px 0px;
+
+    .testimonials-sec .item {
+        margin: 20px 0px 20px 0px;
     }
+
     .ftr-sec .social-media ul {
         list-style: none;
         padding-left: 0px;
@@ -295,160 +377,200 @@
         align-items: center;
         justify-content: center;
     }
-    .e-mail{
+
+    .e-mail {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .ftr-sec .news-ltr h4 {
         margin-top: 20px;
         align-items: center;
         display: flex;
         justify-content: center;
     }
-    .ftr-sec .site-map ul li a, .ftr-sec .copyright a {
-       
+
+    .ftr-sec .site-map ul li a,
+    .ftr-sec .copyright a {
+
         align-items: center;
         display: flex;
         justify-content: center;
-  }
-  .solve-prblm-sec .solve-prblm-div h1 {
-    font-size: 30px;
-    line-height: 29px;
-    text-align: center;
-}
-.solve-prblm-sec .solve-prblm-div {
-    height: 100%;
-    padding: 20px 0px 0px 0px;
-}
-.hero-sec .dr-name-div h1 {
-    font-size: 32px;
-    margin-top: -50px;
-}
-.logo img{
-    width: 100px;
+    }
 
-}
-.ftr-sec .news-ltr h4::before{
-    display: none;
-}
-.solve-prblm-sec {
-    margin-top: 50px;
-}
-.contact-sec {
-    padding: 40px 0px 40px 0px;
-}
-.mt-zero{
-    margin-top: 0px !important;
-}
-.mypage-alo-phone {
-    position: fixed;
-    right: -18px;
-    bottom: 57px;
-}
+    .solve-prblm-sec .solve-prblm-div h1 {
+        font-size: 30px;
+        line-height: 29px;
+        text-align: center;
+    }
 
-.pulse {
-    /* z-index: 999999; */
-   
-    bottom: 7px;
-    right: 3px;
-   
-   
-}
-.specialties-sec {
-    padding-top: 60px;
-    margin-top: 30px;
-}
+    .solve-prblm-sec .solve-prblm-div {
+        height: 100%;
+        padding: 20px 0px 0px 0px;
+    }
 
-.specialties-sec .section-title {
-    margin-bottom: 30px;
-}
+    .hero-sec .dr-name-div h1 {
+        font-size: 32px;
+        margin-top: -50px;
+    }
 
-.specialty-card {
-    margin-bottom: 20px;
-}
+    .logo img {
+        width: 100px;
 
-.hero-sec {
-    padding-top: 100px;
-}
+    }
 
-.hero-content {
-    padding-top: 40px;
-}
+    .ftr-sec .news-ltr h4::before {
+        display: none;
+    }
 
-.hero-headline {
-    margin-top: 20px;
-}
+    .solve-prblm-sec {
+        margin-top: 50px;
+    }
 
-.hero-headline .highlight-text {
-    margin-top: 30px;
-}
+    .contact-sec {
+        padding: 40px 0px 40px 0px;
+    }
 
-.ftr-sec .form-subscribe {
-    padding: 0 15px;
-}
+    .mt-zero {
+        margin-top: 0px !important;
+    }
 
-.ftr-sec .form-subscribe .form-control {
-    margin-bottom: 15px;
-    width: 100%;
-}
+    .mypage-alo-phone {
+        position: fixed;
+        right: -18px;
+        bottom: 57px;
+    }
 
-.ftr-sec .form-subscribe .btn {
-    width: 100%;
-    margin-top: 10px;
-}
+    .pulse {
+        /* z-index: 999999; */
 
-.ftr-sec .form-subscribe .form-group {
-    margin-bottom: 15px;
-}
+        bottom: 7px;
+        right: 3px;
 
-.enquiryForm .h-100.d-flex.justify-content-between.align-items-center {
-    flex-direction: column;
-    align-items: flex-start !important;
-    gap: 20px;
-}
 
-.enquiryForm .submit-btn-sml {
-    width: 100%;
-    margin-top: 10px;
-}
+    }
 
-.enquiryForm p.mb-0 {
-    margin-bottom: 15px !important;
-}
+    .specialties-sec {
+        padding-top: 60px;
+        margin-top: 30px;
+    }
+
+    .specialties-sec .section-title {
+        margin-bottom: 30px;
+    }
+
+    .specialty-card {
+        margin-bottom: 20px;
+    }
+
+    .hero-sec {
+        padding-top: 100px;
+    }
+
+    .hero-content {
+        padding-top: 40px;
+    }
+
+    .hero-headline {
+        margin-top: 20px;
+    }
+
+    .hero-headline .highlight-text {
+        margin-top: 30px;
+    }
+
+    .ftr-sec .form-subscribe {
+        padding: 0 15px;
+    }
+
+    .ftr-sec .form-subscribe .form-control {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .ftr-sec .form-subscribe .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .ftr-sec .form-subscribe .form-group {
+        margin-bottom: 15px;
+    }
+
+    .enquiryForm .h-100.d-flex.justify-content-between.align-items-center {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 20px;
+    }
+
+    .enquiryForm .submit-btn-sml {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .enquiryForm p.mb-0 {
+        margin-bottom: 15px !important;
+    }
+
+    /* Video Testimony Responsive */
+    .video-content-box {
+        text-align: center;
+    }
+
+    .video-content-box .section-title {
+        text-align: center !important;
+    }
+
+    .testimonial-highlights {
+        display: inline-block;
+        text-align: left;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 400px) {
-   
-    .welcome-sec h2, .meet-doctor-sec h2, .specialties-sec h2, .testimonials-sec .text-hd-wrp h2, .contact-sec .contact-card h2 {
+
+    .welcome-sec h2,
+    .meet-doctor-sec h2,
+    .specialties-sec h2,
+    .testimonials-sec .text-hd-wrp h2,
+    .contact-sec .contact-card h2 {
         font-size: 36px;
-      
+
     }
+
     .meet-doctor-sec h3 {
         font-size: 26px;
     }
+
     .meet-doctor-sec .special-div ul li {
         font-size: 17px;
     }
+
     .hero-sec .dr-name-div h1 {
         font-size: 27px;
         margin-top: -50px;
     }
+
     .hero-sec .card p {
         font-size: 9px;
     }
+
     .solve-prblm-sec .solve-prblm-div {
         height: 100%;
         padding: 20px 20px 0px 20px;
     }
-    .meet-doctor-sec .doctor-div .name-box{
+
+    .meet-doctor-sec .doctor-div .name-box {
         padding: 10px;
         bottom: 0px;
     }
+
     .meet-doctor-sec .doctor-div .name-box h4 {
         font-size: 20px;
     }
-   
+
     .hero-sec .dr-name-div-mob {
         top: 80px;
         margin-top: 40px;
@@ -460,12 +582,15 @@
         margin-top: 26% !important;
         line-height: 29px;
     }
+
     .hero-sec .card h3 {
         font-family: "Plus Jakarta Sans", sans-serif;
         font-weight: 700;
         font-size: 22px;
     }
-    .btn-one, .btn-two{
+
+    .btn-one,
+    .btn-two {
         padding: 10px 12px;
         font-size: 14px;
 
@@ -476,12 +601,13 @@
     .hero-sec .card h3 {
         font-family: "Plus Jakarta Sans", sans-serif;
         font-weight: 700;
-        font-size:20px;
+        font-size: 20px;
     }
+
     .hero-sec .card h4 {
         font-family: "Plus Jakarta Sans", sans-serif;
         font-weight: 600;
         font-size: 18px;
     }
-    
+
 }
