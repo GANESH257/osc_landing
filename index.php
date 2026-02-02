@@ -1448,7 +1448,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
                         <div class="video-wrapper overflow-hidden rounded-4 shadow-lg">
-                            <video controls playsinline preload="auto" class="img-fluid w-100" poster="assets/images/about-img.png">
+                            <video controls playsinline preload="auto" class="img-fluid w-100" poster="assets/images/testimonial_thumb.webp">
                                 <source src="assets/videos/Testimony_Sasha_Moreno.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
